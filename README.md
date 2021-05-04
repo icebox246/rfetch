@@ -1,6 +1,6 @@
 # Simple program for fetching system info
 
-[Screenshot]("./screen.png")
+![Screenshot]("./screen.png")
 
 Written in Rust, shows basic info
 
