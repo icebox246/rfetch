@@ -1,6 +1,6 @@
 # Simple program for fetching system info
 
-![Screenshot]("./screen.png")
+![Screenshot]("https://github.com/icebox246/rfetch/blob/master/screen.png?raw=true")
 
 Written in Rust, shows basic info
 
