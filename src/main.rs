@@ -1,5 +1,3 @@
-#![feature(rustc_private)]
-#![feature(array_map)]
 extern crate libc;
 
 use regex::Regex;
