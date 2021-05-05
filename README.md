@@ -15,7 +15,7 @@ Cute penguin ascii art supplied and batteries included (most of the time).
 ## Compilation
 
 1. Install Rust if you haven't already done this
-2. Run `cargo build --release` and needed crates should get downloaded and after compilation program should run
+2. Run `cargo build --release` and needed crates should get downloaded and program should compile
 
 ## Installation
 
