@@ -1,5 +1,6 @@
 extern crate libc;
 
+
 use regex::Regex;
 
 
@@ -47,7 +48,13 @@ fn main() {
     // Cyan	    36	46
     // White	37	47
 
-    let hat_color = color_code(Color::Red);
+    let hat_color = color_code(match rand::random::<u32>() % 5 {
+        0 => Color::Red,
+        1 => Color::Green,
+        2 => Color::Blue,
+        3 => Color::Magenta,
+        _ => Color::Cyan
+    });
     let eye_color = color_code(Color::Green);
     let beak_color = color_code(Color::Yellow);
     let feet_color = color_code(Color::Yellow);
